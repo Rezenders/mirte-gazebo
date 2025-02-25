@@ -16,7 +16,7 @@
   <arg name="sonar_enable" default="True"/>
   <arg name="lidar_enable" default="True"/>
   <arg name="depth_camera_enable" default="True"/>
-  <arg name="visualize" default="True"/>
+  <arg name="visualize_sensors" default="True"/>
 
   <group>
     <push_ros_namespace namespace="$(var ns_1)"/>
